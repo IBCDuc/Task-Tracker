@@ -1,25 +1,50 @@
 # Task Tracker
+This is a sample project in (https://roadmap.sh/projects/task-tracker) used to track and manage your tasks.
 
-Sample solution for the [task-tracker](https://roadmap.sh/) challenge from [roadmap.sh](https://roadmap.sh).
-
-This is a simple command-line interface (CLI) application for managing tasks.
+Use CLI to interact to task.
 
 ## Features
+- Add a new task with unique ID and store in JSON format.
+- Update existing task description using task ID.
+- Delete task using select task id.
+- Mark task as [done] or [in-progress].
+- List tasks by their status [not done], [done] or [inprogress].
 
-- Add new tasks with a unique ID and store it in `JSON` format.
-- List tasks by their status: `to-do`, `in-progress`, or `done`.
-- Update the description of an existing task.
-- Delete tasks by their ID.
-- Mark tasks as `in-progress` or `done`.
+## Require
+Install nodejs on your system.
 
-## Prerequisites
+## Install
+[    ]
 
-- Node.js installed on your system.
+## Usage
+- Add a task:
 
-## Installation
+`task_tracker add "your task"`
 
-### Clone the Repository
+- Delete a task:
 
-```bash
-git clone https://github.com/Aj-Seven/roadmap-projects
+`task_tracker delete 1`
 
+- Update a task:
+
+`task_tracker update 1 "coding"`
+
+- List all task:
+
+`task_tracker list`
+
+- Mark task status:
+
+`task_tracker mark-done`
+
+or
+
+`task_tracker mark-in-progress`
+
+- List task status:
+
+`task_tracker list done`
+
+or 
+
+`task_tracker list in-progress`
