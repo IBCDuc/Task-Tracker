@@ -18,33 +18,50 @@ Install nodejs on your system.
 
 ## Usage
 - Add a task:
-
+  
+```bash
 `task_tracker add "your task"`
+```
 
 - Delete a task:
 
+```bash
 `task_tracker delete 1`
+```
 
 - Update a task:
 
+```bash
 `task_tracker update 1 "coding"`
+```
 
 - List all task:
 
+```bash
 `task_tracker list`
+```
 
 - Mark task status:
 
+```bash
 `task_tracker mark-done`
+```
 
 or
 
+```bash
 `task_tracker mark-in-progress`
+```
+
 
 - List task status:
 
+```bash
 `task_tracker list done`
+```
 
 or 
 
+```bash
 `task_tracker list in-progress`
+```
